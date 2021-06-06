@@ -8,6 +8,5 @@ deploy:
   site: Kadel0809NewWebApp       # If AZURE_WA_SITE isn't set
   on:
     branches:    # ← new!
-      only:      # ← new!
-        - master # ← new!
+      all_branches: true
 # slot: azure_deployment_slotname       # (optional) If AZURE_WA_SLOT isn't set
