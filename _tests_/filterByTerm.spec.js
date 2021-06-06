@@ -1,12 +1,3 @@
-/* function filterByTerm (inputArr, searchTerm) {
-  if (searchTerm === '') {
-    return false
-  }
-  const regex = new RegExp(searchTerm, 'i')
-  return inputArr.filter(function (arrayElement) {
-    return arrayElement.url.match(regex)
-  })
-} */
 const filterByTerm = require('../src/filterByTerm')
 
 describe('Filter function', () => {
