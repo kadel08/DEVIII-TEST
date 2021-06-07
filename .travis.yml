@@ -6,7 +6,5 @@ deploy:
   username: kadel08       # If AZURE_WA_USERNAME isn't set
   password: Elijah@1005   # If AZURE_WA_PASSWORD isn't set
   site: MyKadel08WebApp       # If AZURE_WA_SITE isn't set
-    on:
-    branches:    # ← new!
-      all_branches: true
+
 # slot: azure_deployment_slotname       # (optional) If AZURE_WA_SLOT isn't set
